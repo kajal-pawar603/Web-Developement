@@ -1,0 +1,19 @@
+
+/* ********************TAG SELECtors***************************************** */
+
+
+h1 {
+
+    color:red;
+    font-size: 200px;
+}
+
+img:hover{
+    background-color: goldenrod;
+}
+
+/* *******************Class Selectors****************************************** */
+
+.ice-cream {
+    background-color: red;
+}
