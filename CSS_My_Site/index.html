@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- link for font style -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet"> 
     <!-- <link rel="stylesheet" href="favicon.ico"> -->
    
     <title>Kajal Pawar</title>
@@ -13,10 +16,45 @@
     <div class="top-container">
         <img  class="top-cloud" src="Images/cloud.png" alt="cloud-img">
         <h1>I am Kajal</h1>
-        <p>a Web  Developer</p>
+        <h2>a <span class="pro">pro</span>grammar</h2>
         <img  class="bottom-cloud" src="Images/cloud.png" alt="cloud-img">
         <img src="Images/mountain.png" alt="mountain-img">
     </div>
-    
+    <div class="middle-container">
+        <div class="profile">
+        <img  class="profile-pic" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDgwIDQ4MCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDgwIDQ4MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzRDM0QyNDsiIGQ9Ik0xMTIsMzYwVjEzNkMxMTIsNjUuMzA4LDE2OS4zMDgsOCwyNDAsOHMxMjgsNTcuMzA4LDEyOCwxMjh2MjI0SDExMnoiLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiM5NTRFMjI7IiBkPSJNMzUyLDMzNmgtNzJsLTQwLDQwbC00MC00MGgtNzJjLTI2LjUxLDAtNDgsMjEuNDktNDgsNDh2ODhoMzIwdi04OEM0MDAsMzU3LjQ5LDM3OC41MSwzMzYsMzUyLDMzNnoiDQoJLz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNGMkRCQzA7IiBkPSJNMzIwLjk4NCwxNTJjLTE0LjY4Mi0wLjAwMi0yNy40OC05Ljk5Ni0zMS4wNC0yNC4yNEwyNzIsNjRsLTE2LjQyNCw1Ny43MDQNCgljLTQuNDUsMTcuNzk1LTIwLjQzMywzMC4yODMtMzguNzc2LDMwLjI5NkgxNTJ2NDhjMC4wMDcsMzMuMDUzLDE4LjU1MSw2My4zMSw0OCw3OC4zMmwwLDBWMzM2bDQwLDQwbDQwLTQwdi01Ny42OGwwLDANCgljMjkuNDQ5LTE1LjAxLDQ3Ljk5My00NS4yNjcsNDgtNzguMzJ2LTQ4SDMyMC45ODR6Ii8+DQo8cGF0aCBkPSJNMTIwLDEzNmMwLTY2LjI3NCw1My43MjYtMTIwLDEyMC0xMjBzMTIwLDUzLjcyNiwxMjAsMTIwdjE4NGgxNlYxMzZDMzc2LDYwLjg4OSwzMTUuMTExLDAsMjQwLDBTMTA0LDYwLjg4OSwxMDQsMTM2djE4NGgxNg0KCVYxMzZ6Ii8+DQo8cGF0aCBkPSJNMzUyLDMyOGgtNjR2LTQ0Ljk5MmMyOS42NjItMTcuMTI1LDQ3Ljk1My00OC43NTcsNDgtODMuMDA4di00MGg4di0xNmgtMjMuMDE2Yy0xMS4wOTQtMC4wMTQtMjAuNzM4LTcuNjE2LTIzLjM0NC0xOC40DQoJbC0xNy45NDQtNjMuNzZjLTAuOTY4LTMuNDUxLTQuMTEyLTUuODM3LTcuNjk2LTUuODRsMCwwYy0zLjU3NS0wLjAwMS02LjcxNiwyLjM3LTcuNjk2LDUuODA4bC0xNi40ODgsNTcuOTUyDQoJYy0zLjU1OCwxNC4yMzUtMTYuMzQzLDI0LjIyNy0zMS4wMTYsMjQuMjRIMTM2djE2aDh2NDBjMC4wNDcsMzQuMjUxLDE4LjMzOCw2NS44ODMsNDgsODMuMDA4VjMyOGgtNjQNCgljLTMwLjkxMywwLjAzNS01NS45NjUsMjUuMDg3LTU2LDU2djg4YzAsNC40MTgsMy41ODIsOCw4LDhoMzIwYzQuNDE4LDAsOC0zLjU4Miw4LTh2LTg4QzQwNy45NjUsMzUzLjA4NywzODIuOTEzLDMyOC4wMzUsMzUyLDMyOHoNCgkgTTE2MCwyMDB2LTQwaDU2LjhjMjEuOTQ2LDAuMDUyLDQxLjExNS0xNC44Myw0Ni41MDQtMzYuMTA0bDguNjg4LTMwLjUybDEwLjIxNiwzNi4zMmM0LjM1MiwxNy40MzcsMTkuODI1LDI5LjgxMSwzNy43OTIsMzAuMjI0DQoJVjIwMGMwLDQ0LjE4My0zNS44MTcsODAtODAsODBTMTYwLDI0NC4xODMsMTYwLDIwMHogTTI0MCwyOTZjMTAuOTA4LTAuMDIzLDIxLjczMi0xLjkxNywzMi01LjZ2NDIuMjg4bC0zMiwzMmwtMzItMzJWMjkwLjQNCglDMjE4LjI2OCwyOTQuMDgzLDIyOS4wOTIsMjk1Ljk3NywyNDAsMjk2eiBNMzkyLDQ2NEg4OHYtODBjMC4wMjYtMjIuMDgsMTcuOTItMzkuOTc0LDQwLTQwaDY4LjY4OGwzNy42NTYsMzcuNjU2DQoJYzMuMTI0LDMuMTIzLDguMTg4LDMuMTIzLDExLjMxMiwwTDI4My4zMTIsMzQ0SDM1MmMyMi4wOCwwLjAyNiwzOS45NzQsMTcuOTIsNDAsNDBWNDY0eiIvPg0KPHBhdGggZD0iTTIwMCwxNzhjLTcuNzMyLDAtMTQsNi4yNjgtMTQsMTRzNi4yNjgsMTQsMTQsMTRzMTQtNi4yNjgsMTQtMTRDMjEzLjk5MSwxODQuMjcyLDIwNy43MjgsMTc4LjAwOSwyMDAsMTc4eiBNMTk4LDE5Mg0KCWMwLTEuMTA1LDAuODk1LTIsMi0yczIsMC44OTUsMiwyQzIwMiwxOTQuMiwxOTgsMTk0LjIsMTk4LDE5MnoiLz4NCjxwYXRoIGQ9Ik0yODAsMjA2YzcuNzMyLDAsMTQtNi4yNjgsMTQtMTRzLTYuMjY4LTE0LTE0LTE0cy0xNCw2LjI2OC0xNCwxNEMyNjYuMDA5LDE5OS43MjgsMjcyLjI3MiwyMDUuOTkxLDI4MCwyMDZ6IE0yODAsMTkwDQoJYzEuMTA1LDAsMiwwLjg5NSwyLDJjMCwyLjItNCwyLjItNCwwQzI3OCwxOTAuODk1LDI3OC44OTUsMTkwLDI4MCwxOTB6Ii8+DQo8cGF0aCBkPSJNMjcwLDIzMmgtMTJjMCw5Ljk0MS04LjA1OSwxOC0xOCwxOHMtMTgtOC4wNTktMTgtMThoLTEyYzAsMTYuNTY5LDEzLjQzMSwzMCwzMCwzMFMyNzAsMjQ4LjU2OSwyNzAsMjMyeiIvPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />          <h2>Hello.</h2>
+          <p>I am Web and IOT developer.  worked on web & cloud technologies</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="skill-img" src="https://png.pngtree.com/png-vector/20190215/ourlarge/pngtree-coding-on-screen-round-circle-multi-color-bg-png-image_516901.jpg" />
+          
+            <h3>Design & Development</h3> 
+            <p class="code-desc">I started learning to code when I was 12 years old because I wanted to make my own video games. Over time, I have gained a wealth of experience designing and developing mobile and web applications.</p>
+          </div>
+          <div class="skill-row">
+            <img class="trekking-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjSd56f2BWnVOXamkKKuHoHlw_3ju1yI8D_w&amp;usqp=CAU" />
+            <h3>trekking</h3>
+            <p class="trekking-desc">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+          <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/">Twitter</a>
+        <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+        <p>© 2021 Kajal Pawar.</p>
+      </div>
 </body>
 </html>
