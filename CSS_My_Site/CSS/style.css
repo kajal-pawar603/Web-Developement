@@ -29,8 +29,15 @@ h3 {
 
 p {
     line-height:2;
+    margin: auto;
 }
 
+hr {
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+}
 .top-container {
     background-color: #E4F9F5;
     position:relative;
