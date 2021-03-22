@@ -80,6 +80,10 @@ color: #11999E;
     font-weight: normal;
 }
 
+.intro {
+    width: 30%;
+    margin:auto;
+}
 .skill-img {
     width:40%;
     float: left;
