@@ -89,6 +89,9 @@ a {
     margin:10px 20px;
     text-decoration: none;
 }
+a:hover {
+    color:#EAF6F6
+}
 
 .pro {
     text-decoration: underline;
@@ -103,6 +106,10 @@ a {
 .contact-message {
     width: 40%;
     margin:40px auto 60px;
+}
+
+.copright{
+    
 }
 .skill-img {
     width:40%;
